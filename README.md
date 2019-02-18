@@ -14,3 +14,7 @@
   fallbackFactory: 工厂类，用于生成fallback类示例，通过这个属性我们可以实现每个接口通用的容错逻辑，减少重复的代码
   path: 定义当前FeignClient的统一前缀    
 # @RefreshScope 动态刷新配置
+
+# gateWay spring 网关,
+# EnableZuulProxy
+#[会显示出来的描述](https://blog.csdn.net/hxpjava1/article/details/78334354)

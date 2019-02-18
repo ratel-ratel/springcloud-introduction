@@ -16,5 +16,5 @@
 # @RefreshScope 动态刷新配置
 
 # gateWay spring 网关,
-# EnableZuulProxy
-#[会显示出来的描述](https://blog.csdn.net/hxpjava1/article/details/78334354)
+# @EnableZuulProxy 服务注册为api 网关
+#[EnableZuulProxy 详解](https://blog.csdn.net/hxpjava1/article/details/78334354)

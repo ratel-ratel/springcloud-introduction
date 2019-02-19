@@ -23,3 +23,10 @@
 
 # EnableConfigServer 配置中心
    [配置中心](https://www.cnblogs.com/davidwang456/p/5979563.html?utm_source=itdadao&utm_medium=referral)     
+# [eureka 端配置](https://blog.csdn.net/azadalee/article/details/72123193)
+参数用于定义服务续约任务的调用间隔时间 默认为30 秒
+eureka.instance.lease-renewal-interval-in-seconds=30
+ 参数用于定义服务失效的时间,默认为90 秒
+eureka.instance.lease-expiration-duration-in-seconds=90  
+
+   

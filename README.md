@@ -32,4 +32,5 @@
    
 LoadBalancerClient (负载均衡客户端)和RestTemplate，并在/consumer接口的实现中，先通过loadBalancerClient的choose函数来负载均衡的选出一个eureka-client的服务实例，这个服务实例的基本信息存储在ServiceInstance中，然后通过这些对象中的信息拼接出访问/dc接口的详细地址，最后再利用RestTemplate对象实现对服务提供者接口的调用(http://blog.didispace.com/spring-cloud-starter-dalston-2-1/)
 
-# [CommandLineRunner ] (https://baijiahao.baidu.com/s?id=1572461067170234&wfr=spider&for=pc)
+# [CommandLineRunner](https://baijiahao.baidu.com/s?id=1572461067170234&wfr=spider&for=pc)
+启动加载类,  SpringBoot应用启动的时候需要执行特定的动作，可以利用CommandLineRunner。实现了CommandLineRunner接口的Component会在所有Spring Beans都初始化之后，SpringApplication.run()之前执行，非常适合在应用程序启动之初进行一些数据初始化的工作

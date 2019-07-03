@@ -34,3 +34,9 @@ LoadBalancerClient (负载均衡客户端)和RestTemplate，并在/consumer接�
 
 # [CommandLineRunner](https://baijiahao.baidu.com/s?id=1572461067170234&wfr=spider&for=pc)
 启动加载类,  SpringBoot应用启动的时候需要执行特定的动作，可以利用CommandLineRunner。实现了CommandLineRunner接口的Component会在所有Spring Beans都初始化之后，SpringApplication.run()之前执行，非常适合在应用程序启动之初进行一些数据初始化的工作
+# @Accessors(chain = true)  bean 开启链式编程
+<dependency>
+       <groupId>org.projectlombok</groupId>
+       <artifactId>lombok</artifactId>
+       <version>${lombok.version}</version>
+</dependency>
